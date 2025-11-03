@@ -1,8 +1,6 @@
 #include "../headers/Shape.h"    
 
-class Shape
-{
-public:
-    Shape() {}
-    ~Shape() {}
-};      
+
+Shape :: Shape() {}
+Shape ::  ~Shape() {}
+    

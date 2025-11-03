@@ -1,35 +1,29 @@
 
 #include  "../headers/Point.h"
 
-class Point : public Shape
-{
-private:
-    double x;
-    double y;
 
-public:
-    Point() {}
-    Point(double x = 0, double y = 0) : x(x), y(y) {}
+Point::Point() {}
 
-    double getX() 
+Point::Point(double x = 0, double y = 0) : x(x), y(y) {}
+
+    double Point::getX() 
     {
         return x; 
     }
 
-    double getY() 
+    double Point::getY() 
     { 
         return y;
     }
 
-    double perimeter()
+    double Point::perimeter()
     {
         return 0;
     }
 
-    double area()
+    double Point::area()
     {
         return 0;
     }
 
-    ~Point() {}
-};
+    Point::~Point() {}
