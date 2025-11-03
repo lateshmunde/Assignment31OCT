@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include "../headers/Menu.h"
 
 
@@ -36,6 +37,9 @@ void addShape()
 }
 void displayShape()
 {
+	/*std::vector <Shape*> shapes = getShapes();
+	shapes.push_back(new Shape());*/
+
 }
 void sortArea() {}
 void searchPerimeter() {}

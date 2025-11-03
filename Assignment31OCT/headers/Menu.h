@@ -1,5 +1,7 @@
 #pragma once
+#include <vector>
 
+#include "Shape.h"
 #include "Point.h"
 #include "Circle.h"
 #include "Rectangles.h"
@@ -9,6 +11,7 @@
 
 void addShape();
 void displayShape();
+// std::vector<Shape*> getShapes();
 void sortArea();
 void searchPerimeter();
 void deleteShape();

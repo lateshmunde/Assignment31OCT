@@ -29,4 +29,3 @@ Circle::Circle(Point p1, Point p2) : p1(p1), p2(p2) {}
         return 3.14 * length(p1, p2) * length(p1, p2);
     }
     Circle::~Circle() {}
-};
